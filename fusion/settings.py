@@ -126,7 +126,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-MEDIA_URL = 'media/'  # sempre adicionar essas variáveis para usar dados de upload
+MEDIA_URL = '/media/'  # sempre adicionar essas variáveis para usar dados de upload
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # sempre adicionar
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')  # sempre adicionar
 
