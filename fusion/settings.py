@@ -131,7 +131,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # sempre adicionar
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')  # sempre adicionar
 
 # configuração de email para teste em DEV
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+#EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # configuração de email para quando tiver em produção e tiver um host para enviar email
 
